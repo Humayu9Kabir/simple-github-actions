@@ -1,0 +1,10 @@
+name: test1
+on: [push]
+
+jobs:
+    executing-shell-command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo a love message
+                run: echo "I Love you!!!!!"
+             
